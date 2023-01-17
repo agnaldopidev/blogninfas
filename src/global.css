@@ -1,0 +1,39 @@
+:root{
+  --white: #ffffff;
+  --black: #000000;
+  --gray-100: #acb1a9;
+  --gray-300: #c4ccc5;
+  --gray-400: #eded99;
+  --gray-500: #47474b;
+  --gray-600: #323238;
+  --gray-700: #202024;
+  --gray-800: #7b7b86;
+  --gray-900: #46464e;
+  --green-300: #f6f33f;
+  --green-100: #56b71d;
+  --green-200: #31f531d5;
+  --green-500: #1e4f1ed5;
+  --red-100: #f41e1e;
+}
+:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 1px var(--green-300);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--gray-100);
+  color: var(--gray-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  height: 6rem;
+}
